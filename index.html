@@ -3,14 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario com a Dio</title>
+    <title>Formulario de Cadastro</title>
 </head>
 <body>
-    <form name="signup" method="post" action="#">
-        Nome: <input type="text" name="name" /><br>
-        Idade: <input type="number" name="age" /><br>
-        Senha: <input type="password" name="password" /><br>
-        <button type="submit">Enviar Informações</button>
+    <form>
+            <button type="button">Clicável não funcional</button><br>
+            <label>Digite sua pesquisa: </label><input type="text" /><br>
+            <label>Digite apenas números: </label> <input type="number" min="-3" step="3" max="108" /><br>
+            <label>Range-Alcance: </label> <input type="range" min="0" max="150" value="50" /><br>
+            <label>Color-Cores: </label> <input type="color" /><br>
+            <label>E-mail: </label> <input type="email" /><br>
+            <label>URL: </label> <input type="url" /><br>
+            <label>Date-Data: </label> <input type="date" /><br>
+            <label>Week-Semana: </label> <input type="week" /><br>
+            <label>Checkbox: </label> <input type="checkbox" /><input type="checkbox" /><input type="checkbox" /><br>
+            <label>Radio: </label> <input type="radio" name="Aceita" /><input type="radio" name="Nega" /><br>
+            <label>Hidden: </label><input type="hidden" /><br>
+            <label>File-Arquivo: </label><input type="file" multiple /><br>
+            <label>Search-Busca: </label><input type="search" /><br>
+            <label>Button-Botão: </label> <input type="submit" value="Enviar" /><br>
+
+            
+
+
     </form>
 </body>
 </html>
